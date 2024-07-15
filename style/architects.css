@@ -182,6 +182,16 @@ margin-bottom: 20px;
     font-size: 2.8rem;
     margin-bottom: 24px;
 }
+.footer{
+    max-width: 1440px;
+    background-color:rgba(255, 144, 14, 0.1);
+    text-align: center;
+    margin: 150px auto;
+    padding: 34px;
+    border-radius: 8px;
+
+} 
+
 /* end of teams and our features section  */
 /* end of banner style */
 @media screen and (max-width: 576px){
@@ -196,7 +206,7 @@ margin-bottom: 20px;
     .sponsors-companies{
         grid-template-columns: repeat(1,1fr);
     }
-    .facts-containe,.sponsors-companies{
+    .facts-container,.sponsors-companies{
         justify-items: center;
         gap: 24px;
     }
@@ -206,6 +216,9 @@ margin-bottom: 20px;
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+    }
+    .footer{
+        width: 100%;
     }
 }
 /* mediam size device */
@@ -225,5 +238,8 @@ margin-bottom: 20px;
 #experience-badge{
     margin-top: 20px;
     margin-left: 20px;
+}
+.footer{
+    width: 100%;
 }
 }
