@@ -6,6 +6,10 @@
     font-weight: 400;
     font-style: normal;
   }
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
 /* style shared */
 .display-flex{
     display: flex;
