@@ -217,9 +217,10 @@ margin-bottom: 20px;
         margin-top: 20px;
         margin-left: 20px;
     }
-    .footer{
-        width: 100%;
-    }
+  .footer{
+    width: 100%;
+    padding: 30px 0px;
+  }
 }
 /* mediam size device */
 @media screen and (min-width: 576px) and (Max-width: 992px){
@@ -241,5 +242,6 @@ margin-bottom: 20px;
 }
 .footer{
     width: 100%;
-}
+    padding: 33px 0px;
+  }
 }
