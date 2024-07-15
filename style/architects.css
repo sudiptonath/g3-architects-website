@@ -40,6 +40,10 @@ main{
 main>section{
     margin-top: 130px;
 }
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
   /* navbar */
 .nav-item{
     list-style: none;
@@ -92,14 +96,12 @@ main>section{
     margin-left: 130px;
 max-width: 530px;
 }
-.feature-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-}
+
 #Quick-list{
     font-weight: 500;
     color: #424242;
 }
+/* end of teams and our features section  */
 /* end of banner style */
 @media screen and (max-width: 576px){
     .navbar,
@@ -113,4 +115,14 @@ max-width: 530px;
     .our-features{
         margin-left: 20px;
     }
+}
+/* mediam size device */
+@media screen and (min-width: 576px) and (Max-width: 992px){
+    .teams{
+        flex-direction: column;
+
+}
+.our-features{
+    margin: 50px auto;
+}
 }
